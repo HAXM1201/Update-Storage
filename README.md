@@ -4,6 +4,9 @@ Update Storage to 0.3.4
 export config.toml before start because if u do this guide. All data is gone.
 
 ### Stop Node first
+```bash
+sudo systemctl stop zgs
+```
 
 ```rm -rf /root/0g-storage-node
 git clone -b v0.3.4 https://github.com/0glabs/0g-storage-node.git
