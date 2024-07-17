@@ -15,8 +15,7 @@ cargo build --release
 
 check version
 
-```$HOME/0g-storage-node/target/release/zgs_node --version
-```
+``` $HOME/0g-storage-node/target/release/zgs_node --version ```
 
 it should be 0.3.4
 
