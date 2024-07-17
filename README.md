@@ -1,7 +1,7 @@
 # Update-Storage
 
 Update Storage to 0.3.4
-export config.toml before start because if u do this guide. All data is gone.
+### Luu ý Trước khi cài nên lưu file config.toml lại vì khi cài nó sẽ bị xóa
 
 ### Stop Node first
 ```bash
