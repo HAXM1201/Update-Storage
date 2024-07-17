@@ -26,8 +26,7 @@ $HOME/0g-storage-node/target/release/zgs_node --version
 
 ### Nếu là  0.3.4 thì chúc mừng ... chúng ta qua bước tiếp theo 
 
-### Chỉnh sửa lại config.toml vì mọi dữ liệu đã mất trong file config.toml 
-aaý file đã lưu dán vào  (không chỉnh sửa thêm gì nữa. Nó giống hệt file trước đó).
+### Chỉnh sửa lại config.toml vì mọi dữ liệu đã mất trong file config.toml    . Lấy file đã lưu dán vào  (không chỉnh sửa thêm gì nữa. Nó giống hệt file trước đó).
 
 ```bash
 nano $HOME/0g-storage-node/run/config.toml
