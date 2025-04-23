@@ -109,3 +109,4 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 source <(curl -s https://astrostake.xyz/check_block.sh)
 ```
  
+### This guide contains data processed by josephtran
