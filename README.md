@@ -52,6 +52,35 @@ cargo build --release
 ```bash
 curl -o $HOME/0g-storage-node/run/config-testnet-turbo.toml https://cdn.bangcode.id/0g/v3_config.toml
 ```
+### edit tesnet tubo config file (remove # in the following entries)
+
+```
+# Network Config Options
+network_dir = "network"
+network_listen_address = "0.0.0.0"
+
+# DB Config Options
+db_dir = "db"
+
+# Log configuration file.
+log_config_file = "log_config"
+
+#Log directory.
+log_directory = "log"
+
+# transaction gas fee.
+miner_key = ""
+
+# RPC Config Options
+[rpc]
+
+# Whether to provide RPC service.
+ enabled = true
+
+# HTTP server address to bind for public RPC.
+ listen_address = "0.0.0.0:5678"
+```
+
 ### 6. Set your miner key:
 
 ```bash
